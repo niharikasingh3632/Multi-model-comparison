@@ -1,4 +1,4 @@
-# 🧠 Multi-Model AI Prompt Comparison
+# 🧠 AI-Models Battle
 
 ---
 
