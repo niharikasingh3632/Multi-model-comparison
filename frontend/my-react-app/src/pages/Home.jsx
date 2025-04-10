@@ -25,7 +25,7 @@ const Home = () => {
         setIsGenerating(true);
 
         try {
-            const response = await fetch('https://multi-model-comparison.onrender.com', {
+            const response = await fetch('https://multi-model-comparison.onrender.com/ask', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
