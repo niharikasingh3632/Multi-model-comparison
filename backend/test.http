@@ -1,0 +1,7 @@
+POST http://locwalhost:8000/ask-stream
+Content-Type: application/json
+
+{
+  "prompt": "Explain black holes",
+  "models": ["llama3", "gemma"]
+}
