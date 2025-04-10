@@ -48,6 +48,7 @@ const ModelSelector = ({ onModelSelection }) => {
     return (
         <div className="mt-6">
             <h2 className="text-xl font-medium mb-1">Select Models</h2>
+            <h3 className='text-xs text-gray-600 mb-1'>Check the models -- Click Select Models -- Click Generate Response -- Wait for few minutes -- Viola!</h3>
             <h3 className='text-xs text-gray-600 mb-1'>Select less models for faster results</h3>
             <h3 className='text-xs text-gray-600 mb-4'>Caution: Due to API limits there might be some errors (especially in Deepseek models) give it some time and try again </h3>
 
