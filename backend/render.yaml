@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: fastapi-backend
+    env: python
+    buildCommand: ""
+    startCommand: uvicorn main:app --host 0.0.0.0 --port 8000
+    envVars:
+      - key: GROQ_API_KEY
+        value: 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
